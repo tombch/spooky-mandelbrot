@@ -77,7 +77,7 @@ function draw()
 				let y = yU - ((absolute(yU, yD))*j)/h;
 				let zn = [0, 0];
 				let exceeded = false;		
-				while (iterationCount <= 255)
+				while (iterationCount <= 1020)
 				{
 					zn = [zn[0]**2 - zn[1]**2 + x, 2*zn[0]*zn[1] + y];	
 					let distance = (zn[0]**2 + zn[1]**2)**(1/2);
